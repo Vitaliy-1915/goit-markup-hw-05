@@ -51,15 +51,6 @@ img {
   color: #212121;
 }
 
-.nav-list-link:hover,
-.nav-list-link:focus,
-.header-contacts-link-mail:hover,
-.header-contacts-link-mail:focus,
-.header-contacts-link-tel:hover,
-.header-contacts-link-tel:focus {
-  color: var(--active-link-color);
-}
-
 .nav-list,
 .header-contacts,
 .principles-list,
@@ -67,6 +58,15 @@ img {
 .team-list,
 .footer-address-list {
   list-style: none;
+}
+
+.nav-list-link:hover,
+.nav-list-link:focus,
+.header-contacts-link-mail:hover,
+.header-contacts-link-mail:focus,
+.header-contacts-link-tel:hover,
+.header-contacts-link-tel:focus {
+  color: var(--active-link-color);
 }
 
 .current:visited {
